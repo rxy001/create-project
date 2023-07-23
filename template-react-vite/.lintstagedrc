@@ -1,0 +1,5 @@
+{
+  "*": "npm run prettier",
+  "*.ts": "npm run lint:script",
+  "*.less": "npm run lint:style"
+}
