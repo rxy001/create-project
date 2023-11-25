@@ -1,5 +1,5 @@
 {
-  "*": "npm run prettier",
-  "*.ts": "npm run lint:script",
-  "*.less": "npm run lint:style"
+  "src/*": "npm run prettier",
+  "!(vite.config).{ts,tsx}": "npm run lint:script",
+  "src/*.less": "npm run lint:style"
 }

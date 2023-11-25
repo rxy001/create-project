@@ -1,9 +1,10 @@
 {
-  "name": "template-react-vite",
+  "name": "react-vite",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "author": "XingYu",
+  "files": ["build"],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
